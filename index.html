@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wustoki Cursos e Mobilidade: Conhecimento que Impulsiona o Futuro</title>
+    <!-- Tailwind CSS CDN para estilização rápida e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter para uma tipografia moderna e legível -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Define a fonte Inter como padrão para todo o corpo do documento */
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Fundo escuro para contrastar com as cores da Wustoki */
+            background-color: #1a1a1a;
+            color: #e0e0e0; /* Cor do texto padrão */
+        }
+        /* Cores da Wustoki (ajustadas para Tailwind) */
+        /* Amarelo Ouro: #FFD700 (Tailwind: yellow-500/600) */
+        /* Laranja Vibrante: #FF8C00 (Tailwind: orange-500/600) */
+        /* Preto: #000000 (Tailwind: black) */
+        /* Branco: #FFFFFF (Tailwind: white) */
+        /* Cinza Médio: #6B7280 (Tailwind: gray-500) */
+
+        /* Estilos personalizados para gradientes e sombras, se necessário */
+        .btn-primary {
+            background: linear-gradient(to right, #FFD700, #FF8C00);
+            color: #1a1a1a;
+            font-weight: 600;
+            transition: transform 0.2s ease-in-out;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+        }
+        .btn-secondary {
+            border: 2px solid #FFD700;
+            color: #FFD700;
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        }
+        .btn-secondary:hover {
+            background-color: #FFD700;
+            color: #1a1a1a;
+        }
+        .section-title {
+            color: #FFD700; /* Títulos de seção em Amarelo Ouro */
+        }
+        .card-bg {
+            background-color: #2a2a2a; /* Fundo mais claro para cartões */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Cabeçalho (Header) -->
+    <header class="bg-black text-white py-4 px-6 md:px-12 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <!-- Logo Wustoki Cursos e Mobilidade -->
+            <a href="#" class="flex items-center space-x-2">
+                <!-- Placeholder para o logo. Idealmente, você substituiria por um SVG ou imagem do logo. -->
+                <img src="https://placehold.co/40x40/FFD700/000000?text=W" alt="Logo Wustoki" class="rounded-full">
+                <span class="text-2xl font-bold text-white">Wustoki Cursos</span>
+            </a>
+            <!-- Navegação Principal (para desktop) -->
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="hover:text-yellow-500 transition duration-300">Início</a>
+                <a href="#cursos" class="hover:text-yellow-500 transition duration-300">Cursos</a>
+                <a href="#sobre" class="hover:text-yellow-500 transition duration-300">Sobre Nós</a>
+                <a href="#contato" class="hover:text-yellow-500 transition duration-300">Contato</a>
+            </div>
+            <!-- Botão de Menu para mobile (Hamburger) -->
+            <div class="md:hidden">
+                <button class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="relative bg-gradient-to-br from-gray-900 to-black text-white py-20 md:py-32 overflow-hidden">
+        <div class="container mx-auto px-6 md:px-12 text-center relative z-10">
+            <!-- Título Principal -->
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 animate-fade-in-up">
+                <span class="text-yellow-500">Wustoki Cursos e Mobilidade:</span><br> Conhecimento que Impulsiona o Futuro
+            </h1>
+            <!-- Subtítulo -->
+            <h2 class="text-xl md:text-2xl font-medium mb-8 text-gray-300 animate-fade-in-up delay-100">
+                Capacitação Estratégica para Parceiros, Franqueados, Promotores e Influenciadores do Setor de Mobilidade.
+            </h2>
+            <!-- Texto Descritivo -->
+            <p class="text-lg md:text-xl max-w-3xl mx-auto mb-10 text-gray-400 animate-fade-in-up delay-200">
+                Na Wustoki, acreditamos que o conhecimento é o motor da inovação. Nossa plataforma é a extensão educacional da Wustoki Mobilidade, dedicada a fortalecer a sua jornada profissional com treinamentos de alta qualidade, práticos e alinhados às tendências do mercado. Juntos, transformamos a mobilidade urbana.
+            </p>
+            <!-- Botões de Chamada para Ação -->
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in-up delay-300">
+                <a href="[LINK_PARA_MOODLE_CURSOS]" class="btn-primary px-8 py-4 rounded-full shadow-lg hover:shadow-xl text-lg">
+                    Explore Nossos Cursos
+                </a>
+                <a href="#sobre" class="btn-secondary px-8 py-4 rounded-full text-lg">
+                    Conheça Nossa Missão
+                </a>
+            </div>
+        </div>
+        <!-- Imagem de fundo ou ilustração (placeholder) -->
+        <div class="absolute inset-0 opacity-10">
+            <img src="https://placehold.co/1920x1080/000000/FFFFFF?text=Mobilidade+e+Conhecimento" alt="Background de Mobilidade e Conhecimento" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <!-- Seção "Nossa Proposta de Valor" -->
+    <section class="py-16 md:py-24 bg-gray-800 text-center">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="section-title text-3xl md:text-4xl font-bold mb-12">Impulsionando o Seu Desenvolvimento Profissional</h2>
+            <p class="text-lg max-w-4xl mx-auto mb-16 text-gray-300">
+                Nossa missão é capacitar e desenvolver profissionais e empreendedores no ecossistema da mobilidade urbana, fornecendo acesso a treinamentos de alta qualidade, práticos e alinhados às tendências do mercado. Através da educação, fortalecemos nossa rede e otimizamos operações.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Destaque 1 -->
+                <div class="card-bg p-8 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+                    <div class="text-yellow-500 text-5xl mb-6">
+                        <!-- Ícone de Livro/Cérebro (ex: SVG simples ou Font Awesome se carregado) -->
+                        📚
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Conhecimento de Qualidade</h3>
+                    <p class="text-gray-400">Cursos elaborados por especialistas, com conteúdo atualizado e relevante para o mercado de mobilidade.</p>
+                </div>
+                <!-- Destaque 2 -->
+                <div class="card-bg p-8 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+                    <div class="text-orange-500 text-5xl mb-6">
+                        <!-- Ícone de Gráfico de Crescimento -->
+                        📈
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Crescimento Sustentável</h3>
+                    <p class="text-gray-400">Contribuímos ativamente para o seu desenvolvimento profissional e sucesso duradouro no setor.</p>
+                </div>
+                <!-- Destaque 3 -->
+                <div class="card-bg p-8 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+                    <div class="text-yellow-500 text-5xl mb-6">
+                        <!-- Ícone de Pessoas/Rede -->
+                        🤝
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Comunidade Forte</h3>
+                    <p class="text-gray-400">Construímos uma comunidade de especialistas e líderes que transformam a mobilidade urbana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção "Cursos em Destaque" -->
+    <section id="cursos" class="py-16 md:py-24 bg-black text-center">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="section-title text-3xl md:text-4xl font-bold mb-12">Cursos Que Vão Transformar Sua Carreira</h2>
+            <p class="text-lg max-w-3xl mx-auto mb-16 text-gray-300">
+                Descubra os treinamentos mais procurados e as novidades que preparamos para você. Capacite-se com a Wustoki e esteja à frente no mercado de mobilidade.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Cartão de Curso 1 (Placeholder) -->
+                <div class="card-bg rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/400x250/FFD700/000000?text=Curso+Gestao" alt="Capa do Curso de Gestão" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-white">Gestão Estratégica na Mobilidade</h3>
+                        <p class="text-gray-400 text-sm mb-4">Aprenda as melhores práticas para gerenciar e expandir seu negócio no setor de mobilidade.</p>
+                        <a href="[LINK_PARA_CURSO_1_NO_MOODLE]" class="btn-primary inline-block px-6 py-3 rounded-full text-sm">Saiba Mais</a>
+                    </div>
+                </div>
+                <!-- Cartão de Curso 2 (Placeholder) -->
+                <div class="card-bg rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/400x250/FF8C00/000000?text=Marketing+Digital" alt="Capa do Curso de Marketing Digital" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-white">Marketing Digital para o Setor</h3>
+                        <p class="text-gray-400 text-sm mb-4">Domine as ferramentas de marketing online para atrair e engajar seu público-alvo.</p>
+                        <a href="[LINK_PARA_CURSO_2_NO_MOODLE]" class="btn-primary inline-block px-6 py-3 rounded-full text-sm">Saiba Mais</a>
+                    </div>
+                </div>
+                <!-- Cartão de Curso 3 (Placeholder) -->
+                <div class="card-bg rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/400x250/6B7280/FFFFFF?text=Inovacao" alt="Capa do Curso de Inovação" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-white">Inovação e Tendências em Mobilidade</h3>
+                        <p class="text-gray-400 text-sm mb-4">Esteja atualizado com as últimas inovações e as futuras tendências que moldarão o setor.</p>
+                        <a href="[LINK_PARA_CURSO_3_NO_MOODLE]" class="btn-primary inline-block px-6 py-3 rounded-full text-sm">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16">
+                <a href="[LINK_PARA_LISTAGEM_COMPLETA_DE_CURSOS_NO_MOODLE]" class="btn-secondary px-8 py-4 rounded-full text-lg">
+                    Ver Todos os Cursos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção "Para Quem é a Wustoki Cursos?" -->
+    <section class="py-16 md:py-24 bg-gray-800 text-center">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="section-title text-3xl md:text-4xl font-bold mb-12">Wustoki Cursos: Feito Para Você</h2>
+            <p class="text-lg max-w-3xl mx-auto mb-16 text-gray-300">
+                Nossa plataforma foi cuidadosamente desenvolvida para atender às necessidades de cada pilar do nosso ecossistema de mobilidade.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Bloco: Parceiros e Franqueados -->
+                <div class="card-bg p-8 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+                    <div class="text-yellow-500 text-5xl mb-6">
+                        <!-- Ícone de Edifício/Negócio -->
+                        🏢
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Parceiros e Franqueados</h3>
+                    <p class="text-gray-400">Aprofunde seus conhecimentos em gestão de negócios, estratégias de mercado e otimização operacional para maximizar o sucesso da sua unidade Wustoki.</p>
+                </div>
+                <!-- Bloco: Promotores -->
+                <div class="card-bg p-8 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+                    <div class="text-orange-500 text-5xl mb-6">
+                        <!-- Ícone de Megafone/Pessoa Falando -->
+                        📢
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Promotores</h3>
+                    <p class="text-gray-400">Desenvolva habilidades de comunicação, vendas e engajamento para expandir nossa marca e atrair novos usuários e parceiros.</p>
+                </div>
+                <!-- Bloco: Influenciadores de Mobilidade -->
+                <div class="card-bg p-8 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+                    <div class="text-yellow-500 text-5xl mb-6">
+                        <!-- Ícone de Redes Sociais/Estrela -->
+                        ✨
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Influenciadores de Mobilidade</h3>
+                    <p class="text-gray-400">Acesse conteúdos exclusivos sobre as inovações do setor, tendências de mercado e melhores práticas para enriquecer seu conteúdo e fortalecer sua autoridade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção "Depoimento Pessoal" (Personalizado conforme sua solicitação) -->
+    <section id="sobre" class="py-16 md:py-24 bg-black text-center">
+        <div class="container mx-auto px-6 md:px-12 max-w-4xl">
+            <h2 class="section-title text-3xl md:text-4xl font-bold mb-12">Nossa Visão: Um Sonho de Contribuir</h2>
+            <div class="card-bg p-8 rounded-xl shadow-lg border-l-4 border-yellow-500">
+                <p class="text-xl md:text-2xl italic leading-relaxed text-gray-300 mb-6">
+                    "Desde o início, meu sonho mais profundo tem sido construir algo que realmente faça a diferença. Não se trata de grandiosidade, mas de uma paixão genuína por contribuir com o segmento de mobilidade. Quero, de coração, ajudar na jornada educacional e financeira de cada parceiro Wustoki. Acredito que, com conhecimento e apoio, podemos juntos impulsionar um futuro mais próspero e acessível para todos."
+                </p>
+                <p class="text-lg font-semibold text-white">- O Fundador da Wustoki Cursos e Mobilidade</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção "Perguntas Frequentes (FAQ)" -->
+    <section class="py-16 md:py-24 bg-gray-800">
+        <div class="container mx-auto px-6 md:px-12 text-center">
+            <h2 class="section-title text-3xl md:text-4xl font-bold mb-12">Suas Dúvidas, Nossas Respostas</h2>
+            <p class="text-lg max-w-3xl mx-auto mb-16 text-gray-300">
+                Encontre rapidamente as informações que você precisa sobre nossos cursos, plataforma e parcerias.
+            </p>
+            <!-- Exemplo de Acordeão (implementação simples, pode ser mais complexa com JS) -->
+            <div class="max-w-3xl mx-auto text-left">
+                <div class="mb-4 p-6 card-bg rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-white cursor-pointer">Como faço para me inscrever em um curso?</h3>
+                    <p class="text-gray-400 mt-2 hidden">Você pode se inscrever diretamente na página do curso desejado, clicando no botão "Saiba Mais" e seguindo as instruções na plataforma Moodle.</p>
+                </div>
+                <div class="mb-4 p-6 card-bg rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-white cursor-pointer">Quais são as formas de pagamento disponíveis?</h3>
+                    <p class="text-gray-400 mt-2 hidden">Aceitamos diversas formas de pagamento, incluindo cartão de crédito, boleto bancário e outras opções que serão detalhadas no momento da inscrição.</p>
+                </div>
+                <div class="mb-4 p-6 card-bg rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-white cursor-pointer">Existem pré-requisitos para os cursos?</h3>
+                    <p class="text-gray-400 mt-2 hidden">Alguns cursos podem ter pré-requisitos específicos, que estarão claramente indicados na descrição de cada um. Muitos são abertos a todos os interessados.</p>
+                </div>
+            </div>
+            <div class="mt-16">
+                <a href="[LINK_PARA_PAGINA_COMPLETA_DE_FAQ]" class="btn-secondary px-8 py-4 rounded-full text-lg">
+                    Ver Todas as FAQs
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chamada Final para Ação -->
+    <section class="py-16 md:py-24 bg-gradient-to-br from-yellow-500 to-orange-500 text-center text-black">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-8 leading-tight">Pronto Para Impulsionar Sua Carreira na Mobilidade?</h2>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-12">
+                Junte-se à comunidade Wustoki Cursos e comece hoje mesmo a construir um futuro de sucesso. O conhecimento que você precisa está ao seu alcance.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="[LINK_PARA_MOODLE_CURSOS]" class="bg-black text-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl text-lg font-semibold transition duration-300">
+                    Inscreva-se Agora
+                </a>
+                <a href="#contato" class="border-2 border-black text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-black hover:text-white transition duration-300">
+                    Fale Conosco
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé (Footer) -->
+    <footer class="bg-black text-gray-400 py-12 px-6 md:px-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+            <!-- Coluna 1: Logo e Descrição -->
+            <div>
+                <a href="#" class="flex items-center space-x-2 mb-4">
+                    <img src="https://placehold.co/40x40/FFD700/000000?text=W" alt="Logo Wustoki" class="rounded-full">
+                    <span class="text-2xl font-bold text-white">Wustoki Cursos</span>
+                </a>
+                <p class="text-sm">Capacitando profissionais para transformar o futuro da mobilidade urbana.</p>
+            </div>
+            <!-- Coluna 2: Links Wustoki -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4 text-white">Wustoki</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#sobre" class="hover:text-yellow-500 transition duration-300">Sobre Nós</a></li>
+                    <li><a href="#" class="hover:text-yellow-500 transition duration-300">Missão e Visão</a></li>
+                    <li><a href="#" class="hover:text-yellow-500 transition duration-300">Carreira</a></li>
+                </ul>
+            </div>
+            <!-- Coluna 3: Links Cursos -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4 text-white">Cursos</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="[LINK_PARA_LISTAGEM_COMPLETA_DE_CURSOS_NO_MOODLE]" class="hover:text-yellow-500 transition duration-300">Todos os Cursos</a></li>
+                    <li><a href="#" class="hover:text-yellow-500 transition duration-300">Categorias</a></li>
+                    <li><a href="#" class="hover:text-yellow-500 transition duration-300">Lançamentos</a></li>
+                </ul>
+            </div>
+            <!-- Coluna 4: Contato e Redes Sociais -->
+            <div id="contato">
+                <h3 class="text-lg font-semibold mb-4 text-white">Contato</h3>
+                <ul class="space-y-2 text-sm">
+                    <li>Email: <a href="mailto:contato@wustoki.com" class="hover:text-yellow-500 transition duration-300">contato@wustoki.com</a></li>
+                    <li>Telefone: <a href="tel:+5511999999999" class="hover:text-yellow-500 transition duration-300">(XX) XXXXX-XXXX</a></li>
+                    <li>Endereço: Rua Exemplo, 123 - Cidade, Estado</li>
+                </ul>
+                <div class="flex space-x-4 mt-6">
+                    <!-- Ícones de Redes Sociais (placeholders) -->
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition duration-300 text-2xl">👍</a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition duration-300 text-2xl">📸</a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition duration-300 text-2xl">🐦</a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 mt-10 pt-8 text-center text-sm text-gray-500">
+            © 2025 Wustoki Cursos e Mobilidade. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script>
+        // Script para funcionalidade de acordeão simples na FAQ
+        document.addEventListener('DOMContentLoaded', () => {
+            const faqQuestions = document.querySelectorAll('#contato + section .card-bg h3'); // Seleciona os títulos das perguntas na seção FAQ
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const answer = question.nextElementSibling;
+                    if (answer.classList.contains('hidden')) {
+                        answer.classList.remove('hidden');
+                    } else {
+                        answer.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
